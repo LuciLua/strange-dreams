@@ -1,5 +1,5 @@
 .container {
-    background-color: #121212;
+    background: linear-gradient(#28252f, #0e0e11);
     color: #ddd;
     display: flex;
     justify-content: center;
@@ -13,10 +13,28 @@
 
     .content {
         max-width: 700px;
+        padding: 20px;
+        p{
+            text-align: justify;
+        }
+
+        h1{
+            line-height: 1;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 50px;
+            color: rgb(89, 89, 117);
+            text-shadow: 2px -1px 1px #d8bbe93e;
+        }
+
+        h2{
+            text-align: center;
+        }
 
         form {
 
             margin-top: 20px;
+
 
             label {
                 font-family: 'LuckiestGuy';
@@ -26,7 +44,7 @@
                 resize: none;
                 border: none;
                 width: 100%;
-                min-height: 100px;
+                min-height: 130px;
                 padding: 10px;
                 font-family: inherit;
                 border-radius: 4px;
@@ -47,6 +65,9 @@
 
                 font-weight: 500;
                 border-radius: 4px;
+
+
+                margin-top: 10px;
 
                 &:hover {
                     background-color: #44527a74;

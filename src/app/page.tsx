@@ -35,8 +35,8 @@ export default function RootPage() {
     return (
         <div className={styles.container}>
             <div className={styles.content}>
-                <h2 style={{ textAlign: 'center' }}>Você anda tendo</h2>
-                <h1 style={{ textAlign: 'center', fontSize: '50px', marginBottom: '20px' }}>Sonhos Estranhos?</h1>
+                <h2>Você anda tendo</h2>
+                <h1>Sonhos Estranhos?</h1>
                 <p>O Vale dos Sonhos <i>Wegotad</i> está investigando a manifestação de sonhos bizarros e inexplicáveis acontecendo em todo o mundo. Se você tem experimentado qualquer atividade estranha nos seus sonhos, você pode nos ajudar descrevendo seu sonho aqui.</p>
                 <form target="iframe" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd5YtZbYt4Aoz97peWQWPuDdKdCiiQOgVOb3uYfua9_L58nPQ/formResponse" method="POST" name="formdream" id="formdream">
                     <textarea name="entry.448259901" id="sonho" ref={sonho} required></textarea>
